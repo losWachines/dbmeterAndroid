@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Biblioteca_academica">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="E-MAIL"
+            android:id="@+id/SIGIN_EMAIL"
+            android:textSize="32dp" />
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Valor"
+            android:layout_margin="1dip"
+            android:id="@+id/SIGIN_EMAILValor"
+            android:textSize="32dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="LOG NAME"
+            android:id="@+id/SIGIN_LOGINTEXT"
+            android:textSize="32dp" />
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Valor"
+            android:layout_margin="1dip"
+            android:id="@+id/SIGIN_LOGINValor"
+            android:textSize="32dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="PASS"
+            android:id="@+id/SIGIN_PASSTEXT"
+            android:textSize="32dp"
+            android:layout_gravity="center_vertical" />
+
+
+
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Valor"
+            android:layout_margin="1dip"
+            android:id="@+id/SIGIN_PASSalor"
+            android:textSize="32dp"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="PASS CONFIRM"
+            android:id="@+id/SIGIN_PASSCOMFIRMTEXT"
+            android:textSize="32dp"
+            android:layout_gravity="center_vertical" />
+
+
+
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Valor"
+            android:layout_margin="1dip"
+            android:id="@+id/SIGIN_PASCOMFIRMSalor"
+            android:textSize="32dp"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:id="@+id/SIGIN_SIGNIN"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15"
+            android:textSize="32dp"/>
+    </LinearLayout>
+
+</LinearLayout>

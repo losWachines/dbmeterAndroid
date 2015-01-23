@@ -62,8 +62,17 @@
         <Button
             android:layout_width="134dp"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="LOG IN"
             android:id="@+id/LOGIN_SUBMIT"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15"
+            android:textSize="32dp"/>
+
+        <Button
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:id="@+id/LOGIN_SIGNIN"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.15"
             android:textSize="32dp"/>
