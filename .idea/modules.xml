@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dbmeterandroid.iml" filepath="$PROJECT_DIR$/Dbmeterandroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbmeterAndroid.iml" filepath="$PROJECT_DIR$/dbmeterAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/dbmeterAndroid.iml" filepath="$PROJECT_DIR$/dbmeterAndroid.iml" />
     </modules>
   </component>

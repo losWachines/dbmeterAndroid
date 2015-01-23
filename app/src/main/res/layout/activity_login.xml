@@ -1,16 +1,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:orientation="vertical"
     tools:context="ues.dbmeterandroid.LoginActivity"
-    android:weightSum="1"
-    android:background="@drawable/Biblioteca_academica">
+    android:background="@drawable/a4"
+    android:>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+
         <TextView
             android:layout_width="111dp"
             android:layout_height="wrap_content"
@@ -26,13 +23,10 @@
             android:id="@+id/Login_LOGINValor"
             android:textSize="32dp"/>
 
-        </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+
+
 
     <TextView
         android:layout_width="111dp"
@@ -54,11 +48,8 @@
         android:textSize="32dp"
         android:layout_gravity="center_vertical" />
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+
+
         <Button
             android:layout_width="134dp"
             android:layout_height="wrap_content"
@@ -76,7 +67,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.15"
             android:textSize="32dp"/>
-    </LinearLayout>
+
 
 
 

@@ -1,5 +1,6 @@
 package ues.dbmeterandroid;
 
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TabHost;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -19,8 +21,24 @@ public class MainActivity extends ActionBarActivity {
 
         ActionBar bar = getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#E13535")));
-        bar.setDisplayHomeAsUpEnabled(true);
         bar.setTitle("Inicio");
+
+        Resources res = getResources();
+
+        TabHost tabs  = (TabHost) findViewById(R.id.tabHost);
+        tabs.setup();
+
+        TabHost.TabSpec spec1 = tabs.newTabSpec("tab1");
+        spec1.setContent(R.id.Logeados);
+        spec1.setIndicator("Reporte LogIn", null);
+        tabs.addTab(spec1);
+
+
+        TabHost.TabSpec spec2 = tabs.newTabSpec("tab2");
+        spec2.setContent(R.id.Reportes);
+        spec2.setIndicator("Reporte DB", null);
+        tabs.addTab(spec2);
+
     }
 
 
