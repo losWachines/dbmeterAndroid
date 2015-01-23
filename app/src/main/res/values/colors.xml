@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--BG'S-->
+    <color name="actionBarBG">#E13535</color>
+
+    <!--TextColor-->
+    <color name="gray_text_color">#636363</color>
+    <color name="red_text_color">#E13535</color>
+    <color name="green_text_color">#6F9604</color>
+    <color name="blue_text_color">#0179DD</color>
+
+</resources>
